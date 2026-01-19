@@ -1,6 +1,6 @@
 # Stored Cross-Site Scripting (XSS) in Sourcecodester Pet Grooming Management Software Affecting admin.
 
-- **Product Name:** Pet Grooming Management Software
+- **Product Name:** The SourceCodester Pet Grooming Management Software
 - **Vendor:** SourceCodester
 - **Product Page:**
   https://www.sourcecodester.com/php/18340/pet-grooming-management-software-download.html
@@ -9,7 +9,7 @@
 
 ## Summary
 
-Pet Grooming Management Software contains a **stored cross-site scripting (XSS) vulnerability** in the **User Profile update functionality**. The application fails to sanitize or encode user-supplied input before storing it in the database.
+The SourceCodester Pet Grooming Management Software contains a **stored cross-site scripting (XSS) vulnerability** in the **User Profile update functionality**. The application fails to sanitize or encode user-supplied input before storing it in the database.
 
 An authenticated low-privileged user can inject malicious JavaScript into the **Address** field. When an administrator later views the affected user profile via the **Admin Panel**, the stored payload is executed in the administrator’s browser context.
 
